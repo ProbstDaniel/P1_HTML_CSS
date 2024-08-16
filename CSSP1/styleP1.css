@@ -1,0 +1,86 @@
+body{/* referente ao corpo*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #333333;
+    /*transofrmar a fonte e a cor de tudo q tá dentro do body*/
+}
+h1{
+    text-decoration: underline;/*sublinhar a fonte 1*/
+    font-style: italic;/*deixar a fonte 1 em italico*/
+}
+
+h2{
+    text-decoration:underline ;
+    text-decoration-style: solid;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header{
+background-color: #2196EB;
+ margin-right:5px; /*colocar espaço na margem da direita e da esquerda */
+ margin-left: 5px;
+ text-align: center; /*alinhar o texto no centro */
+ padding: 20px;
+border-radius: 10px; /*arredondar as bordas */
+border:solid;
+}
+nav{
+background-color: #6A79EB;
+border: solid 2px #0918e7 ;/*borda sólida com 2 pixels e cor amarela*/
+border-radius: 5px;
+width: 100%; /*largura máxima*/
+border-style: inset;/*borda pra dentro do quadrado*/
+}
+/*
+nav ul li{
+    float: left;
+    text-decoration: none; retira as bolinhas da marcação
+    
+}*/
+
+/**/ol{
+    display: flex;
+    flex-direction:row ;
+    padding: 0; /*margem interna*/
+    /*background-color: #383636;*/
+}
+/**/li{
+    /*margin: 0 10px;*/ /*margem externa */ 
+    list-style: none ; /*retira as bolinhas da marcação*/
+    width:20%; /*largura em 20%, pois são 5 itens para 100% de largura*/
+    text-align: center; /*alinhar o texto no centro*/
+}
+a{/*referente a "incognita relacionada ao texto dentro da lista*/
+    color: black; /*cor da letra*/
+    font-size: 16; /*muda o tamanho da fonte dos "a"*/
+    font-weight: bold; 
+    text-decoration: none; /*retirar os pontos*/
+}
+a:hover{ /*mudar de cor ao passar encima */
+    color:red; /*mudar a cor ao passar */
+    font-size: 20px; /* aumentar o tamanho ao passar*/
+    text-decoration: underline; /*sublinhar ao passar por cima */
+}
+div{
+    background-color: red;
+    width: 100px ;
+    height: 100px;
+    transition: all 0.8s; /*realizar um transição ao retirar o mouse d cima*/
+}
+div:hover{    background-color: rgb(30, 255, 0);
+    border-radius: 50px; /*faz virar uma bolinha pois arredonda a metade da borda*/
+    transition: all 0.8s; /*realiza uma transição entre passar o mouse*/
+}
+b{
+    justify-content: center;
+    align-items: center;
+}
+b:hover{
+
+}
+.centered-div {
+    display: flex;
+    
+    
+    height: 100vh;
+    border: 1px solid black;
+}
